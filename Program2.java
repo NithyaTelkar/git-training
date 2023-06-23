@@ -11,6 +11,7 @@ public class TestingWebpage
 		WebDriver driver;
 		WebDriverWait wait;
 //		wait= new WebDriverWait(driver,30);
+// used to acccess the web driver
 		ChromeOptions options = new ChromeOptions();
 	    options.addArguments("--remote-allow-origins=*");
 		System.setProperty("webdriver.chrome.driver","C:\\TCB\\chromedriver_win32 (114)\\chromedriver.exe");
